@@ -13,3 +13,7 @@ print("Normal list:",odd_list)
 #Comprehensive list
 odd = [code for code in codes if code % 2 != 0]
 print("Comprehensive list:",odd)
+
+
+codeset = set(codes)
+print(codeset)
